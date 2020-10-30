@@ -12,5 +12,10 @@ public class HomeController {
 	public  String saludo() {
 		return "Hola mundo";
 	}
+	
+	@GetMapping
+	public String despedida() {
+		return "Adiós mundo";
+	}
 
 }
