@@ -10,12 +10,12 @@ public class HomeController {
 	
 	@GetMapping("/")
 	public  String saludo() {
-		return "Hola mundo..";
+		return "Hola mundo......";
 	}
 	
 	@GetMapping
 	public String despedida() {
-		return "Adiós mundo";
+		return "Adiós mundo.....";
 	}
 
 }
